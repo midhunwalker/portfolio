@@ -27,7 +27,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <img 
-                src={`${process.env.PUBLIC_URL}/${project.image}`} // Corrected line
+                src={`${process.env.PUBLIC_URL}${project.image}`} 
                 alt={project.title}
                 className="project-image"
               />
