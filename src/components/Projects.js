@@ -6,14 +6,14 @@ const Projects = () => {
     { 
       title: 'Portfolio Website', 
       description: 'Personal portfolio built with React.js',
-      image: 'MidhunPorfolioWebsite.png',
+      image: '/images/MidhunPorfolioWebsite.png',
       demoLink: '#',
       codeLink: 'https://github.com/midhunwalker/portfolio.git'
     },
     { 
       title: 'SupplyCo Website', 
       description: 'A user-friendly platform connecting customers with SupplyCo shops',
-      image: 'Supplycowebsite.png',
+      image: '/images/Supplycowebsite.png', 
       demoLink: '#',
       codeLink: 'https://github.com/midhunwalker/Supplyco-reactjs.git'
     }
@@ -27,7 +27,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div key={index} className="project-card">
               <img 
-                src={`${process.env.PUBLIC_URL}/${project.image}`} 
+                src={project.image}
                 alt={project.title}
                 className="project-image"
               />
