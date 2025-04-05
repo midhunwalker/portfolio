@@ -44,5 +44,6 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://midhunwalker.github.io/portfolio"
+  "homepage": "https://portfolio-six-rust-96.vercel.app/"
+  
 }
