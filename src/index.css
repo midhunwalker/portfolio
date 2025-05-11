@@ -28,7 +28,7 @@ body {
 
 /* ================ Navigation ================ */
 .navbar {
-  position: fixed;
+  position: fixed; /* or 'relative' depending on your needs */
   top: 0;
   width: 100%;
   padding: 1rem 0;
@@ -53,6 +53,7 @@ body {
 .desktop-menu {
   display: flex;
   gap: 2rem;
+  padding-right: 100px;
 }
 
 .desktop-menu a {
