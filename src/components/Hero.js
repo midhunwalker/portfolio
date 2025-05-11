@@ -12,6 +12,13 @@ const Hero = () => {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
+        <div className="hero-image">
+            <img 
+              src={MidhunImage} // Use imported image
+              alt="Midhun P"
+              className="profile-photo"
+            />
+          </div>
           <div className="hero-text">
             <h1>Software Developer</h1>
             <p>Building innovative solutions with modern technologies</p>
@@ -19,13 +26,7 @@ const Hero = () => {
               View My Work
             </button>
           </div>
-          <div className="hero-image">
-            <img 
-              src={MidhunImage} // Use imported image
-              alt="Midhun P"
-              className="profile-photo"
-            />
-          </div>
+
         </div>
       </div>
     </section>
