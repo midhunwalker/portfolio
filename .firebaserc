@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "midhunwalker-portfolio"
-  }
+    "default": "midhunwalker-portfolio",
+    "midhunwalker": "midhunwalker-1a244"
+  },
+  "targets": {},
+  "etags": {}
 }
