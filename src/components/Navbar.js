@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-content">
-        <div className="logo"></div>
+        <div className="logo">Midhun P</div>
         
         {/* Desktop Navigation */}
         <div className="nav-links desktop-menu">

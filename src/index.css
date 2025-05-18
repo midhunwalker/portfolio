@@ -4,6 +4,7 @@
   --accent-green: #76c776;
   --dark-green: #2e8b57;
   --text-dark: #333333;
+  
 }
 
 /* ================ Base Styles ================ */
@@ -41,12 +42,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .logo {
   color: var(--dark-green);
   font-size: 1.5rem;
   font-weight: 700;
+  padding-left: 50px;
 }
 
 /* Desktop Navigation */
@@ -236,19 +239,28 @@ body {
 }
 
 .cta-button {
-  background-color: var(--light-green);
-  color: var(--dark-green);
+  background-color: white;
+  color: var(--dark-green);  /* Changed to dark green text */
   padding: 1rem 2rem;
-  border: none;
-  border-radius: 5px;
+  border: 2px solid var(--light-green);
+  border-radius: 25px;  /* More curved edges */
   font-size: 1.1rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-weight: 500;
 }
 
+/* Hover state */
 .cta-button:hover {
-  background-color: var(--accent-green);
-  color: var(--white);
+  border-color: var(--dark-green);
+  color: var(--darker-green);
+}
+
+/* Click animation */
+.cta-button:active {
+  transform: scale(0.92);  /* Slightly more scale-down */
+  background-color: var(--light-green);
+  color: white;
 }
 
 /* ================ About Section ================ */
